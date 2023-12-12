@@ -45,7 +45,7 @@ export default function Home() {
 
             <div className="  flex-col md:flex-row   my-16 flex items-center md:justify-between">
               <div className=" sm:order-2   max-md:mt-10 flex md:block md:flex-row items-center  flex-col md:order-1 order-2">
-                <h1 className="text-6xl font-custom font-bold text-center">
+                <h1 className="text-6xl font-custom text-center">
                   Festejemos Juntos
                 </h1>
 
@@ -77,13 +77,13 @@ export default function Home() {
                 />
 
                 <div>
-                  <h2 className=" text-4xl text-center dark:text-white text-[#353849] font-custom font-bold">
+                  <h2 className=" text-4xl text-center dark:text-white text-[#353849] font-custom ">
                     16 de Diciembre
                   </h2>
-                  <h4 className=" text-2xl text-center dark:text-white text-[#353849] font-custom font-bold">
+                  <h4 className=" text-2xl text-center dark:text-white text-[#353849] font-custom ">
                     21:30 hs
                   </h4>
-                  <h2 className=" text-4xl text-center dark:text-white text-[#353849] font-custom font-bold">
+                  <h2 className=" text-4xl text-center dark:text-white text-[#353849] font-custom ">
                     Hotel Asturias - Cafayate
                   </h2>
                   <p className="text-center dark:text-neutral-300 text-[#666D80] text-lg">
@@ -130,7 +130,7 @@ export default function Home() {
 
                 <div className="mx-auto max-w-md">
                   <div>
-                    <h2 className=" text-6xl text-center font-custom font-bold dark:text-white text-[#353849] ">
+                    <h2 className=" text-6xl text-center font-custom dark:text-white text-[#353849] ">
                       Tu compañía es el regalo más preciado.
                     </h2>
                     <p className="text-center mt-3 dark:text-neutral-300 text-[#666D80] text-lg">
@@ -167,7 +167,7 @@ export default function Home() {
                 />
 
                 <div>
-                  <h2 className=" text-6xl text-center dark:text-white text-[#353849]  font-custom font-bold">
+                  <h2 className=" text-6xl text-center dark:text-white text-[#353849]  font-custom">
                     Agradezco de antemano tu amor y amistad. Con aprecio,
                     <motion.img
                       initial={{ x: 100, opacity: 0, filter: "blur(50px)" }}
