@@ -23,6 +23,11 @@
   src: url("../public/font/Inter-Regular.ttf");
 }
 
+@font-face {
+  font-family: BeauRivage;
+  src: url("../public/font/BeauRivage-Regular.ttf");
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

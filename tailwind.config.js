@@ -12,6 +12,7 @@ module.exports = {
         InterBo: ["InterBo"],
         InterMe: ["InterMe"],
         InterRe: ["InterRe"],
+        custom: ["BeauRivage"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -20,5 +21,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
