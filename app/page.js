@@ -105,11 +105,7 @@ export default function Home() {
                     </div>
                   </Link>
 
-                  <Link
-                    href={
-                      "https://www.google.com/travel/search?q=hotel%20asturias&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C72277293%2C72298667%2C72302247%2C72313836%2C72317059%2C72406588%2C72412680%2C72414906%2C72423103%2C72430562%2C72437469%2C72437470%2C72440516%2C72442338%2C72445425%2C72448521%2C72455189&hl=es-AR&gl=ar&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaJwoJEgc6BVNhbHRhEhoSFAoHCOcPEAwYDRIHCOcPEAwYDhgBMgIQACoHCgU6A0FSUw&qs=CAEyKENob0lzNjdiNklLbGphTFJBUm9OTDJjdk1URmlkSFpuT1dneE9CQUI4Bg&ap=KigKEgnlKdUaNFc6wBHnetvM0mlQwBISCSXs5O-IKTjAEed628w3FFDAMABoAQ&ictx=1&ved=0CAAQ5JsGahcKEwjw0ubC_YiDAxUAAAAAHQAAAAAQYw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls"
-                    }
-                  >
+                  <Link href={"https://goo.gl/maps/prMzo2Dgx7EaeUj98"}>
                     <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 rounded-full flex items-center justify-center gap-x-2">
                       <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
                       <p className="text-[#000000] lg:inline font-bold">
