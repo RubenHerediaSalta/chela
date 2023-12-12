@@ -97,7 +97,7 @@ export default function Home() {
                       "https://api.whatsapp.com/send/?phone=%2B5403868411475&text=Hola,+confirmo+mi+asistencia+al+cumpleaños+de+Chela&type=phone_number&app_absent=0"
                     }
                   >
-                    <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 rounded-full flex items-center justify-center gap-x-2">
+                    <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 py-6 rounded-full flex items-center justify-center gap-x-2">
                       <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
                       <p className="text-[#000000] lg:inline font-bold">
                         Confirmar asistencia
@@ -106,7 +106,7 @@ export default function Home() {
                   </Link>
 
                   <Link href={"https://goo.gl/maps/prMzo2Dgx7EaeUj98"}>
-                    <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 rounded-full flex items-center justify-center gap-x-2">
+                    <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 py-6 rounded-full flex items-center justify-center gap-x-2">
                       <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
                       <p className="text-[#000000] lg:inline font-bold">
                         Ubicación
@@ -143,7 +143,7 @@ export default function Home() {
 
                   <div className="flex justify-center gap-x-2 my-6 mx-auto">
                     <Link href={"https://link.mercadopago.com.ar/cumplechela"}>
-                      <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 rounded-full flex items-center justify-center gap-x-2">
+                      <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 py-6 rounded-full flex items-center justify-center gap-x-2">
                         <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
                         <p className="text-[#000000] flex font-bold ">
                           Contribuir
