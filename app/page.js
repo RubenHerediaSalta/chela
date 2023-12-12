@@ -9,7 +9,12 @@ export default function Home() {
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1, transition: { duration: 0.2 } }}
-        className="bg-white top-24 relative dark:bg-[#212121] shadow-md rounded-xl max-w-xl lg:mx-auto mx-4 lg:max-w-xl  max-2xl  md:mx-auto sm:mx-auto lg:px-0 "
+        className="top-24 relative shadow-md rounded-xl max-w-xl lg:mx-auto mx-4 lg:max-w-xl max-2xl md:mx-auto sm:mx-auto lg:px-0"
+        style={{
+          backgroundImage: 'url("/img/bg.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <motion.img
           initial={{ x: 100, opacity: 0, filter: "blur(50px)" }}
@@ -40,7 +45,7 @@ export default function Home() {
 
             <div className="  flex-col md:flex-row   my-16 flex items-center md:justify-between">
               <div className=" sm:order-2   max-md:mt-10 flex md:block md:flex-row items-center  flex-col md:order-1 order-2">
-                <h1 className="text-4xl text-neutral-700 font-InterBo text-center dark:text-white">
+                <h1 className="text-4xl font-InterBo text-center">
                   Festejemos Juntos
                 </h1>
 
@@ -87,18 +92,27 @@ export default function Home() {
                 </div>
 
                 <div className="flex justify-center gap-x-2 my-6 mx-auto">
-                  <Link href={"/contact"}>
-                    <div className="bg-[#F6F8FA] dark:bg-[#ecdf2a] h-6 w-6 lg:w-fit lg:px-3 rounded-full flex items-center justify-center gap-x-2">
+                  <Link
+                    href={
+                      "https://api.whatsapp.com/send/?phone=%2B5403868411475&text=Hola,+confirmo+mi+asistencia+al+cumpleaños+de+Chela&type=phone_number&app_absent=0"
+                    }
+                  >
+                    <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 rounded-full flex items-center justify-center gap-x-2">
                       <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
-                      <p className="text-[#000000] hidden lg:flex font-bold ">
+                      <p className="text-[#000000] lg:inline font-bold">
                         Confirmar asistencia
                       </p>
                     </div>
                   </Link>
-                  <Link href={"/contact"}>
-                    <div className="bg-[#F6F8FA] dark:bg-[#ecdf2a] h-6 w-6 lg:w-fit lg:px-3 rounded-full flex items-center justify-center gap-x-2">
+
+                  <Link
+                    href={
+                      "https://www.google.com/travel/search?q=hotel%20asturias&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C72277293%2C72298667%2C72302247%2C72313836%2C72317059%2C72406588%2C72412680%2C72414906%2C72423103%2C72430562%2C72437469%2C72437470%2C72440516%2C72442338%2C72445425%2C72448521%2C72455189&hl=es-AR&gl=ar&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaJwoJEgc6BVNhbHRhEhoSFAoHCOcPEAwYDRIHCOcPEAwYDhgBMgIQACoHCgU6A0FSUw&qs=CAEyKENob0lzNjdiNklLbGphTFJBUm9OTDJjdk1URmlkSFpuT1dneE9CQUI4Bg&ap=KigKEgnlKdUaNFc6wBHnetvM0mlQwBISCSXs5O-IKTjAEed628w3FFDAMABoAQ&ictx=1&ved=0CAAQ5JsGahcKEwjw0ubC_YiDAxUAAAAAHQAAAAAQYw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls"
+                    }
+                  >
+                    <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 rounded-full flex items-center justify-center gap-x-2">
                       <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
-                      <p className="text-[#000000] hidden lg:flex font-bold ">
+                      <p className="text-[#000000] lg:inline font-bold">
                         Ubicación
                       </p>
                     </div>
@@ -132,10 +146,10 @@ export default function Home() {
                   </div>
 
                   <div className="flex justify-center gap-x-2 my-6 mx-auto">
-                    <Link href={"/contact"}>
-                      <div className="bg-[#F6F8FA] dark:bg-[#ecdf2a] h-6 w-6 lg:w-fit lg:px-3 rounded-full flex items-center justify-center gap-x-2">
+                    <Link href={"https://link.mercadopago.com.ar/cumplechela"}>
+                      <div className="bg-[#ecdf2a] h-6 w-100 w-fit px-3 rounded-full flex items-center justify-center gap-x-2">
                         <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
-                        <p className="text-[#000000] hidden lg:flex font-bold ">
+                        <p className="text-[#000000] flex font-bold ">
                           Contribuir
                         </p>
                       </div>
